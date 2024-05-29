@@ -208,6 +208,9 @@ collections:
     permalink: /:collection/:path/
   publications:
     output: true
+    permalink: /:collection/:path/    
+  workigpapers:
+    output: true
     permalink: /:collection/:path/
   portfolio:
     output: true
@@ -259,6 +262,15 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true      
+  # _workingpapers
+  - scope:
+      path: ""
+      type: workingpapers
     values:
       layout: single
       author_profile: true
