@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant, Microeconomics I (2023, 2024)"
+title: "Microeconomics I (2023, 2024)"
 collection: ta
 type: "Ph.D."
 permalink: /teaching/TA-microI
@@ -8,4 +8,4 @@ date: 2023-01-01
 location: "São Paulo, Brazil"
 ---
 
-Ph.D. in Economics first year Microeconomics course.
+First-year PhD Microeconomics course.

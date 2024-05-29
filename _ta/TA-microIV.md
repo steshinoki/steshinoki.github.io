@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant, Microeconomics IV (2023, 2024)"
+title: "Microeconomics IV (2023, 2024)"
 collection: ta
 type: "Undergraduate course"
 permalink: /teaching/TA-microIV
@@ -8,4 +8,4 @@ date: 2023-01-01
 location: "São Paulo, Brazil"
 ---
 
-Undergraduate course in Economics on microenomic models and econometric methods.
+<!-- course description -->
