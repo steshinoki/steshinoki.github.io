@@ -7,14 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-## Teaching Assistant
-
-{% for post in site.ta reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
-## Teaching 
+<!--
+{% include toc title="Teaching" icon="book-open" %}
 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
 {% endfor %}
+-->
+
+
+{% include toc title="Teaching Assistant" icon="book-open" %}
+
+{% for post in site.ta reversed %}
+  {% include archive-single.html %}
+{% endfor %}  
+
