@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Stéphanie T. Shinoki"
+title                    : "Stéphanie Tramontin Shinoki"
 title_separator          : "-"
-name                     : &name "Stéphanie Tramontin Shinoki"
+name                     : &name "Stéphanie T. Shinoki"
 description              : &description "PhD student at Insper"
 url                      : https://steshinoki.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "steshinoki/steshinoki.github.io"
 author:
   # Biographic information
   avatar           : "bio-photo.jpg"
-  name             : "Stéphanie Tramontin Shinoki"
+  name             : "Stéphanie T. Shinoki"
   pronouns         : "she/her"  
   bio              : "PhD candidate at Insper Institute of Education and Research"
   location         : "São Paulo, BR"
