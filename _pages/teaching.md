@@ -8,7 +8,6 @@ author_profile: true
 {% include base_path %}
 
 <!--
-<h2> Teaching </h2>
 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
