@@ -43,43 +43,43 @@
         {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p><small>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </small></p>
         {% elsif post.collection == 'ta' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p><small>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </small></p>
         {% elsif post.collection == 'publications'%}
           {% if post.paperurl and post.slidesurl and post.venue %}
-            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}  <br /> <a href="{{ post.paperurl }}">Download Paper</a>  <a href="{{ post.slidesurl }}">Download Slides</a></p>
+            <p><small>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}  <br /> <a href="{{ post.paperurl }}">Download Paper</a>  <a href="{{ post.slidesurl }}">Download Slides</a></small></p>
           {% elsif post.paperurl and post.slidesurl %}
-            <p>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }} | <a href="{{ post.paperurl }}">Download Paper</a>  <a href="{{ post.slidesurl }}">Download Slides</a></p>
+            <p><small>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }} | <a href="{{ post.paperurl }}">Download Paper</a>  <a href="{{ post.slidesurl }}">Download Slides</a></small></p>
           {% elsif post.paperurl %}
-            <p>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }} | <a href="{{ post.paperurl }}">Download Paper</a> </p>
+            <p><small>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }} | <a href="{{ post.paperurl }}">Download Paper</a> </small></p>
           {% elsif post.slidesurl %}
-            <p>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }} | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+            <p><small>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }} | <a href="{{ post.slidesurl }}">Download Slides</a></small></p>
           {% elsif post.venue %}
-            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</p>
+            <p><small>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</small></p>
           {% elsif post.venue and post.paperurl %}
-            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}  <br /> <a href="{{ post.paperurl }}">Download Paper</a></p>
+            <p><small>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}  <br /> <a href="{{ post.paperurl }}">Download Paper</a></small></p>
           {% elsif post.venue and post.slidesurl %}
-            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}  <br /> <a href="{{ post.slidesurl }}">Download Slides</a></p>
+            <p><small>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}  <br /> <a href="{{ post.slidesurl }}">Download Slides</a></small></p>
           {% endif %}
         {% elsif post.collection == 'workingpapers' %}
           {% if post.paperurl and post.slidesurl and post.venue %}
-            <p>Published: <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}  <br /> <a href="{{ post.paperurl }}">Download Paper</a>  <a href="{{ post.slidesurl }}">Download Slides</a></p>
+            <p><small>Published: <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}  <br /> <a href="{{ post.paperurl }}">Download Paper</a>  <a href="{{ post.slidesurl }}">Download Slides</a></small></p>
           {% elsif post.paperurl and post.slidesurl %}
-            <p>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }} | <a href="{{ post.paperurl }}">Download Paper</a>  <a href="{{ post.slidesurl }}">Download Slides</a></p>
+            <p><small>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }} | <a href="{{ post.paperurl }}">Download Paper</a>  <a href="{{ post.slidesurl }}">Download Slides</a></small></p>
           {% elsif post.paperurl %}
-            <p>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }} | <a href="{{ post.paperurl }}">Download Paper</a> </p>
+            <p><small>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }} | <a href="{{ post.paperurl }}">Download Paper</a></small> </p>
           {% elsif post.slidesurl %}
-            <p>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }} | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+            <p><small>{{ post.date | default: "1900-01-01" | date: "%B, %Y" }} | <a href="{{ post.slidesurl }}">Download Slides</a></small></p>
           {% elsif post.venue %}
-            <p>Published: <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</p>
+            <p><small>Published: <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}</small></p>
           {% elsif post.venue and post.paperurl %}
-            <p>Published: <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}  <br /> <a href="{{ post.paperurl }}">Download Paper</a></p>
+            <p><small>Published: <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}  <br /> <a href="{{ post.paperurl }}">Download Paper</a></small></p>
           {% elsif post.venue and post.slidesurl %}
-            <p>Published: <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}  <br /> <a href="{{ post.slidesurl }}">Download Slides</a></p>
+            <p><small>Published: <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }}  <br /> <a href="{{ post.slidesurl }}">Download Slides</a></small></p>
           {% endif %}  
         {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+         <p class="page__date"><small><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></small></p>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
