@@ -1,6 +1,6 @@
 ---
 title: "Teaching Assistant, Organizational Economics (2024)"
-collection: teaching
+collection: ta
 type: "M.SC. in Economics"
 permalink: /teaching/TA-org
 venue: "Insper"

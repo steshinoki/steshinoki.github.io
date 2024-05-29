@@ -1,6 +1,6 @@
 ---
 title: "Teaching Assistant, Microeconomics I (2023, 2024)"
-collection: teaching
+collection: ta
 type: "Ph.D."
 permalink: /teaching/TA-microI
 venue: "Insper"
