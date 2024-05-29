@@ -15,7 +15,6 @@ author_profile: true
 {% endfor %}
 -->
 
-
 <h2> Teaching Assistant </h2>
 
 {% for post in site.ta reversed %}
