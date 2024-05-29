@@ -8,4 +8,4 @@ date: 2023-01-01
 location: "São Paulo, Brazil"
 ---
 
-First-year PhD Microeconomics course.
+<!-- course description -->
