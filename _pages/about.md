@@ -15,4 +15,4 @@ Beyond the academia:
 -------------------
 I love understanding languages (and that includes programming). Besides Portuguese and English, I studied Spanish for many years, although it has been some time since I last studied it, and I am actively learning Italian. I did a high school exchange in Finland which gave me a basic undestanding of finnish.
 
-I also love watching sports and you will regularly find me watching competitions of a wide range of events. If a sport is competitive and regulated by an international body, I’ll be watching it. While I don't actively participate in sports, I practice yoga regularly and have done so for many years.
+I also love watching sports and you will regularly find me watching competitions of a wide range of events. If a sport is competitive and regulated by an international body, I’ll be watching it. While I don't actively practice any, I do yoga regularly and have done so for many years.
