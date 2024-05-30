@@ -10,9 +10,9 @@ redirect_from:
 
 I am a PhD candidate in Business Economics at the <u><a href="https://www.insper.edu.br/en/">Insper Institute of Education and Research</a></u> in São Paulo, Brazil. My research interest are econometrics, with an emphasis on identification and inference.
 
-I am originally from Londrina, Brazil, and prior to graduate school, I earned my B.A. in Economics from FGV/EPGE in Rio de Janeiro. 
+I am originally from Londrina and earned my B.A. in Economics from FGV/EPGE in Rio de Janeiro. 
 
-For a more detailed academic profile, please visit the <u><a href="https://steshinoki.github.io/cv/">CV section</a></u> 
+For a more detailed academic profile, please visit the <u><a href="https://steshinoki.github.io/cv/">CV section</a></u>.
 
 Beyond the academia:
 -------------------
