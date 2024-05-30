@@ -203,16 +203,10 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  ta:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/    
   workigpapers:
-    output: true
-    permalink: /:collection/:path/
-  workingpapers:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -252,15 +246,6 @@ defaults:
       author_profile: true
       share: true
       comments: true      
-  # _ta
-  - scope:
-      path: ""
-      type: ta
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -270,15 +255,6 @@ defaults:
       author_profile: true
       share: true
       comments: true      
-  # _workingpapers
-  - scope:
-      path: ""
-      type: workingpapers
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _workingpapers
   - scope:
       path: ""
