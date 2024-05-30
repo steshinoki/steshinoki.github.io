@@ -7,9 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
-<h2> Teaching Assistant </h2>
-
-{% for post in site.ta reversed %}
-  {% include archive-single.html %}
-{% endfor %}  
+Teaching Assistant (Insper)
+--------------------
+* Microeconomics IV (Undergraduate), 2023 and 2024
+* Organizational Economics (M.SC. in Economics), 2024
+* Behavioral Economics (M.SC. in Economics), 2023
+* Microeconomics I (Ph.D.), 2022 and 2023
 
