@@ -206,7 +206,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/    
-  workigpapers:
+  workingpapers:
     output: true
     permalink: /:collection/:path/
   portfolio:
