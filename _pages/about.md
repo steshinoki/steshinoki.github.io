@@ -8,7 +8,7 @@ redirect_from:
   - /home/
 ---
 
-I am a PhD candidate in Business Economics at the <a href="https://www.insper.edu.br/en/">Insper Institute of Education and Research</a> in São Paulo, Brazil. I'm currently a Visiting Research Scholar at <a href="https://economics.northwestern.edu/"> Northwestern University</a> with a <a href="https://fapesp.br/en">FAPESP</a> Fellowship. 
+I am a PhD candidate in Business Economics at the <a href="https://www.insper.edu.br/en/home">Insper Institute of Education and Research</a> in São Paulo, Brazil. I'm currently a Visiting Research Scholar at <a href="https://economics.northwestern.edu/"> Northwestern University</a> with a <a href="https://fapesp.br/en">FAPESP</a> Fellowship. 
 
 My research interest are econometrics, with an emphasis on identification and inference.
 
