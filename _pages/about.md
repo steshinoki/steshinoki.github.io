@@ -18,7 +18,7 @@ For a more detailed academic profile, please visit the <a href="https://steshino
 
 Beyond the academia
 -------------------
-I love understanding languages (and that includes programming). Besides Portuguese and English, I studied Spanish for many years, although it has been some time since I last studied it, and I am actively learning Italian. I did a high school exchange in Finland which gave me a basic undestanding of Finnish.
+I love understanding languages (and that includes programming). Besides Portuguese and English, I studied Spanish for many years - although it has been some time since I last studied it - and I am actively learning Italian. I did a high school exchange in Finland which gave me a basic undestanding of Finnish.
 
 I also watch a lot of sports and you will regularly find me watching competitions of a wide range of events. While I don't actively practice any, I do yoga regularly and have done so for many years.
 
