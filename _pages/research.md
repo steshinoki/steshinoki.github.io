@@ -35,3 +35,19 @@ This paper investigates the econometric theory behind the newly developed differ
 [cris]: https://sites.google.com/site/cristinepinto/
 [DiDC_SSRN]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4846141
 
+
+
+
+[//]: This java script is the button to show abstract
+<script>
+ function visib(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+[//]:&emsp;<button onclick="visib('polariz')" class="btn btn--inverse btn--small">Abstract</button>

@@ -22,4 +22,4 @@ I love understanding languages (and that includes programming). Besides Portugue
 
 I also watch a lot of sports and you will regularly find me watching competitions of a wide range of events. While I don't actively practice any, I do yoga regularly and have done so for many years.
 
-Hear my name: <a href="https://hearmyname.net/say/fr/St%C3%A9phanie" style="text-decoration:none">Stéphanie</a> <a href="https://hearmyname.net/say/it/Tramontin">Tramontin</a> <a href="https://hearmyname.net/say/ja-jp/Shinoki" style="text-decoration:none">Shinoki</a>
+Hear my name: <a href="https://hearmyname.net/say/fr/St%C3%A9phanie" style="text-decoration:none">Stéphanie</a> <a href="https://hearmyname.net/say/it/Tramontin" style="text-decoration:none">Tramontin</a> <a href="https://hearmyname.net/say/ja-jp/Shinoki" style="text-decoration:none">Shinoki</a>
