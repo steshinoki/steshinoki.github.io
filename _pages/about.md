@@ -8,15 +8,15 @@ redirect_from:
   - /home/
 ---
 
-I am a PhD candidate in Business Economics at the <a href="https://www.insper.edu.br/en/home">Insper Institute of Education and Research</a> in São Paulo, Brazil. I'm currently a Visiting Research Scholar at <a href="https://economics.northwestern.edu/"> Northwestern University</a> with a <a href="https://fapesp.br/en">FAPESP</a> Fellowship. 
+I am a PhD candidate in Business Economics at the <a href="https://www.insper.edu.br/en/home" style="text-decoration:none">Insper Institute of Education and Research</a> in São Paulo, Brazil. I'm currently a Visiting Research Scholar at <a href="https://economics.northwestern.edu/" style="text-decoration:none"> Northwestern University</a> with a <a href="https://fapesp.br/en" style="text-decoration:none">FAPESP</a> Fellowship. 
 
-My research interest are econometrics, with an emphasis on identification and inference.
+My research interest are theoretical and applied econometrics. Currently, I focus on discontinuity-based estimators.
 
-I am originally from Londrina and earned my B.A. in Economics from FGV/EPGE in Rio de Janeiro. 
+I am originally from Londrina and earned my B.A. in Economics from FGV/EPGE in Rio de Janeiro.
 
-For a more detailed academic profile, please visit the <a href="https://steshinoki.github.io/cv/">CV section</a>.
+For a more detailed academic profile, please visit the <a href="https://steshinoki.github.io/cv/" style="text-decoration:none">CV section</a>.
 
-Beyond the academia
+Beyond academia
 -------------------
 I love understanding languages (and that includes programming). Besides Portuguese and English, I studied Spanish for many years - although it has been some time since I last studied it - and I am actively learning Italian. I did a high school exchange in Finland which gave me a basic undestanding of Finnish.
 
