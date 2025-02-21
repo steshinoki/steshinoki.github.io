@@ -49,18 +49,34 @@ $caption-font-family        : $serif;
 
 @include breakpoint-set("to ems", true);
 
-$body-color                 : #252a34;
-$background-color           : #252a34;
-$code-background-color      : mix(#000, $background-color, 15%);
-$code-background-color-dark : mix(#000, $background-color, 20%);
-$text-color                 : #eaeaea;
-$border-color               : mix(#fff, $background-color, 20%);
+$small                      : 600px !default;
+$medium                     : 768px !default;
+$medium-wide                : 900px !default;
+$large                      : 925px !default;
+$x-large                    : 1280px !default;
 
-$primary-color              : #ebe5f3; /*c8f4f5*/
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #b7ccf5; /*52adc8*/
+/* ==========================================================================
+   Grid
+   ========================================================================== */
+
+$right-sidebar-width-narrow : 20px !default;
+$right-sidebar-width        : 30px !default;
+$right-sidebar-width-wide   : 40px !default;
+
+$susy: (
+    columns: 12,
+    column-width: 120px,
+    gutters: 1/4,
+    math: fluid,
+    output: float,
+    gutter-position: after,
+    container: $large,
+    global-box-sizing: border-box,
+);
+
+/* ==========================================================================
+   BRAND COLORS
+   ========================================================================== */
 
 $behance-color              : #1769FF;
 $bluesky-color              : #1184fe;
@@ -86,54 +102,4 @@ $vimeo-color                : #1ab7ea;
 $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
-
-
-/* links */
-$link-color                 : mix(#fff, $info-color, 15%) !default;
-$link-color-hover           : mix(#fff, $link-color, 25%) !default;
-$link-color-visited         : mix(#000, $link-color, 15%) !default;
-$masthead-link-color        : $primary-color !default;
-$masthead-link-color-hover  : mix(#fff, $primary-color, 25%) !default;
-$navicon-link-color-hover   : mix(#000, $primary-color, 75%) !default;
-
-
-/*
-   Breakpoints
-   ========================================================================== */
-
-@include breakpoint-set("to ems", true);
-$small                      : 600px !default;
-$medium                     : 768px !default;
-$medium-wide                : 900px !default;
-$large                      : 925px !default;
-$x-large                    : 1280px !default;
-
-/* ==========================================================================
-   Grid
-   ========================================================================== */
-
-   $right-sidebar-width-narrow : 20px !default;
-   $right-sidebar-width        : 30px !default;
-   $right-sidebar-width-wide   : 40px !default;
    
-   $susy: (
-       columns: 12,
-       column-width: 120px,
-       gutters: 1/4,
-       math: fluid,
-       output: float,
-       gutter-position: after,
-       container: $large,
-       global-box-sizing: border-box,
-   );
-
-
-/*
-   Other
-   ========================================================================== */
-
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$navicon-width              : 28px;
-$navicon-height             : 4px;
-$global-transition          : all 0.2s ease-in-out;
