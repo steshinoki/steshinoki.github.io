@@ -1,14 +1,17 @@
 ---
 layout: archive
-title: "Teaching"
+title: 
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
+# <center> Teaching </center>
+- - -
+
 Teaching Assistant (Insper)
---------------------
+
 * Microeconomics IV (Undergraduate), 2023 and 2024
 * Organizational Economics (M.SC. in Economics), 2024
 * Behavioral Economics (M.SC. in Economics), 2023
