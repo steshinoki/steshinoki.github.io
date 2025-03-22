@@ -14,9 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const data = await response.json();
 
         const condition = data.current.condition.text.toLowerCase();
+        const icon  = data.current.condition.icon;
         const weatherConditions = {
           rain: "raining 🌧️",
           cloud: "cloudy ☁️",
+          overcast: "cloudy ☁️",
           sunny: "sunny ☀️",
           snow: "snowy ❄️",
           clear: "clear 🌟"
