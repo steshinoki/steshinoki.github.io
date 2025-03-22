@@ -23,10 +23,11 @@ repository               : "steshinoki/steshinoki.github.io"
 author:
   # Biographic information
   avatar           : "bio-photo.jpg"
-  name             : "Stéphanie T. Shinoki"
+  name             : "Stéphanie T. Shinoki" # Include full name
+  nickname         : "Stéphanie" 
   pronouns         : "she/her"  
   bio              : "PhD candidate at Insper Institute of Education and Research"
-  location         : "São Paulo, BR"
+  location         : "Evanston, IL"
   employer         : "Insper"
   uri              : # URL
   email            : "stephaniets@al.insper.edu.br" 
@@ -74,6 +75,9 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+
+  # API Keys (note they will be public in the source code for github pages)
+  weatherapikey    : e13b94bde0e6470481700313252203
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:

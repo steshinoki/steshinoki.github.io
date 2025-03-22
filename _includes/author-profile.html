@@ -158,4 +158,55 @@
       {% endif %}      
     </ul>
   </div>
+
+  <!-- Weather Section -->
+  <div id="weather" class="weather">
+    {% if author.location and author.weatherapikey %}
+      <p id="weather-info">Loading weather...</p>
+      <script>
+        const nickname = "{{ author.nickname }}";
+        const url = "https://api.weatherapi.com/v1/current.json?key={{ author.weatherapikey }}&q={{ author.location }}";
+
+        // Fetch weather data
+        async function fetchWeather() {
+          try {
+            const response = await fetch(url);
+            const data = await response.json();
+
+            // Extract weather information
+            const weatherInfo = document.getElementById("weather-info");
+            const condition = data.current.condition.text.toLowerCase();
+            const weatherConditions = {
+              rain: "raining 🌧️",
+              cloud: "cloudy ☁️",
+              sunny: "sunny ☀️",
+              snow: "snowy ❄️",
+              clear: "clear 🌟"
+            };
+
+            let weatherMessage = `It's currently ${condition.toLowerCase()} in ${nickname}'s house.`;
+
+            for (const [key, value] of Object.entries(weatherConditions)) {
+              if (condition.includes(key)) {
+                weatherMessage = `It's currently ${value} in ${nickname}'s house.`;
+                break;
+              }
+            }
+
+            weatherInfo.innerHTML = weatherMessage;
+          } catch (error) {
+            console.error("Error fetching weather data:", error);
+            // Hide the weather section if there's an error
+            const weatherSection = document.getElementById("weather");
+            if (weatherSection) {
+              weatherSection.style.display = "none";
+            }
+          }
+        }
+
+        // Call the function to fetch weather
+        fetchWeather();
+      </script>
+    {% endif %}
+  </div>
 </div>
