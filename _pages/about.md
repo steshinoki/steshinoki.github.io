@@ -22,13 +22,3 @@ I also watch a lot of sports and you will regularly find me watching competition
 
 Hear my name: <a href="https://hearmyname.net/say/fr/St%C3%A9phanie">Stéphanie</a> <a href="https://hearmyname.net/say/it/Tramontin">Tramontin</a> <a href="https://hearmyname.net/say/ja-jp/Shinoki">Shinoki</a>
 
-
-### Random Fact of Today
-
-<p id="todayDate">Loading today's date...</p>
-<p id="randomFact">Loading fact...</p>
-<p id="randomFactDay">Loading fact...</p>
-<p id="randomFactMonth">Loading fact...</p>
-<p id="randomFactYear">Loading fact...</p>
-
-<script src="/assets/js/numberRandomFact.js"></script>
