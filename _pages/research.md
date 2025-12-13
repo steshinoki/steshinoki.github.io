@@ -24,7 +24,7 @@ author_profile: true
 # <center> Working Papers </center>
 - - -
 
-**Difference-in-Discontinuities: Estimation, Inference and Validity Tests**, joint with <a href="https://sites.google.com/view/pedropicchetti/home" style="text-decoration:none">Pedro Picchetti</a> and <a href="https://sites.google.com/site/cristinepinto/" style="text-decoration:none">Cristine Campos de Xavier Pinto</a>. 2024. <br/> 
+**Difference-in-Discontinuities: Estimation, Inference and Validity Tests**, joint with <a href="https://sites.google.com/view/pedropicchetti/home" style="text-decoration:none">Pedro Picchetti</a> and <a href="https://sites.google.com/site/cristinepinto/" style="text-decoration:none">Cristine Campos de Xavier Pinto</a>. 2024. (Submitted)<br/> 
 <small>[<a href="#" onclick="visib('DiDC_abs')">Abstract</a> | [SSRN WP][DiDC_SSRN]] </small>
 
 <div id="DiDC_abs" style="display: none; text-align: justify; line-height: 1.2" ><small>
