@@ -16,7 +16,7 @@ For a more detailed academic profile, please visit the <a href="https://steshino
 
 Beyond academia
 -------------------
-I am originally from Londrina and earned my B.A. in Economics from <a href="https://www.epge.fgv.br/en" style="text-decoration:none">FGV/EPGE</a> in Rio de Janeiro. I love learning languages (and that includes programming). In addition to Portuguese and English, I studied Spanish for many years and am currently learning Italian. I also spent a year in Finland as a high school exchange student, which gave me a basic understanding of Finnish. I also watch a lot of sports (though I don't practice any) and have practiced yoga for many years.
+I am originally from Londrina, Brazil and earned my B.A. in Economics from <a href="https://www.epge.fgv.br/en" style="text-decoration:none">FGV/EPGE</a> in Rio de Janeiro. I love learning languages (and that includes programming). In addition to Portuguese and English, I studied Spanish for many years and am currently learning Italian. I also spent a year in Finland as a high school exchange student, which gave me a basic understanding of Finnish. I watch a lot of sports (though I don't practice any) and have practiced yoga for many years.
 
 I have taken the <a href="https://www.givingwhatwecan.org/">Giving What We Can</a> pledge and currently donate 5% of my income to effective causes. My giving is partially directed toward Brazil through organizations like <a href="https://www.aservicodavida.org.br/">Barcos Hospitais</a> and <a href="https://www.doebem.org.br/">DoeBem</a>. I also pledge to increase this amount to 10% in the next few years.
 
